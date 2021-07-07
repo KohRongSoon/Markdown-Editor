@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  background-color: bisque;
+  color:#dda7a7;
+  padding: 1px 20px 20px 20px;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.Title {
+  text-align: center;
+  background-color: rgb(183, 197, 236);
+  color:rgb(2, 2, 2);
+  grid-template-columns: repeat(2,1fr);
+  display: grid;
+  font-weight: bolder;
+}
+
+.Input{
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 0px 20px 20px 20px;
+  background-color: rgb(183, 197, 236);
+  grid-gap: 20px;
+}
+
+textarea{
+  background-color: rgb(255, 234, 234);
+  padding-top: 15px;
+  padding-left: 15px;
+  border-radius: 10px;
+  line-height: 1.5;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
+.Result{
+  background-color: rgb(255, 234, 234);
+  border-radius: 10px;
+  padding: 0px 20px 20px 20px;
+  text-align: left;
+  color:rgb(2, 2, 2);
+  line-height: 1.5;
+}
+
